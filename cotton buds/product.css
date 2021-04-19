@@ -1,0 +1,96 @@
+body{
+    font-family: 'Mulish', sans-serif;
+}
+
+/* header */
+
+header{
+	background-color:#F5F5F5;;
+}
+
+.flex-zone{
+	display: flex;
+	justify-content: space-around;
+
+}
+
+ul>li{
+	margin:2em;
+	vertical-align:middle;
+	list-style: none;
+	padding:1em;
+	
+}
+
+/* formulaire */
+
+/* first fieldset */
+
+h2{
+    text-align: center;
+    font-size:xx-large;
+}
+
+form{
+    background-color:#F5F5F5;
+    padding: 10px 50px;
+}
+
+em{
+    color: red;
+}
+
+#first{
+    display: flex;  
+}
+
+#first div{
+    margin-right: 30px;
+}
+
+#first #firstele label{
+    display:block;
+    padding-bottom: 5px;
+}
+
+#first #secondele input{
+    display: block;
+    margin-bottom: 2px;
+}
+
+legend{
+    display: block;
+    width: auto;
+    margin: auto;
+    font-size: 0.7cm;
+}
+
+fieldset{
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+/* second fieldset */
+
+#second{
+    display: flex;
+    justify-content: space-between;
+}
+
+#second div:last-child{
+    margin-left: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+/* footer */
+
+footer>div{
+	margin:2em;
+}
+
+footer{
+    margin-top: 30px;
+	justify-content: flex-start;
+	background-color:#F5F5F5;
+}

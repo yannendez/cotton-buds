@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="product.css">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@200&display=swap" rel="stylesheet"> 
+    <title>Cotton Buds Products</title>
+</head>
+<body>
+    <header>
+        <nav>
+			<ul class="flex-zone">
+				<li><img src="image/logo.png" width="80px" height="80px"></li>
+				<li><a href="#top">Home</a></li>
+				<li><a href="custom.html">Customize</a></li>
+				<li><a href="cart.html">Cart</a></li>
+				<li><a href="login.html">Login</a></li>
+			</ul>
+		</nav>
+    </header>
+    <section>
+        <h2>Let's go, customize your cotton buds</h2>
+        <form action="product.php" method="GET">
+            <fieldset id="first">
+                <legend>Contact</legend>
+
+                <div id="firstele">
+                    <label for="nom">Nom<em>*</em></label>
+                    <label for="mail">Email<em>*</em></label>
+                    <label for="adresse">Adresse<em>*</em></label>
+                </div>
+                
+                <div id="secondele">
+                    <input id="nom" type="text" placeholder="Patrice Martin" name="nom" required>
+                    <input id="mail" type="email" placeholder="jean.castex@gmail.com" name="email" required>
+                    <input id="adresse" type="text" placeholder="42 rue des Apôtres - NICE" name="adresse" required>
+                </div>
+
+            </fieldset>
+            <fieldset id="second">
+                <legend>Choose your Cotton Buds</legend>
+                
+            <div>
+                <label for="bud">Colors Buds</label>
+                <input id="bud" type="color" name="favcolor" required><br><br>
+
+                <label>Frame Matter</label><br><br>
+
+                <label for="wood">Wood</label>
+                <input id="wood" type="radio" name="matter" value="wood"><br>
+
+                <label for="cardboard">Recycled Cardboard</label>
+                <input id="cardboard" type="radio" name="matter" value="cardboard"><br>
+
+                <label for="plastic">Recycled Plastic</label>
+                <input id="plastic" type="radio" name="matter" value="plastic"><br><br>
+
+                <label for="framecolor">Frame Color</label>
+                <select name="frame-color" id="framecolor">
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                    <option value="blue">Blue</option>
+                    <option value="red">Red</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="green">Green</option>
+                    <option value="orange">Orange</option>
+                    <option value="purple">Purple</option>
+                    <option value="pink">Pink</option>
+                    <option value="grey">Grey</option>
+                    <option value="brown">Brown</option>
+                </select><br><br>
+
+                <label for="text">Text</label>
+                <input id="text" type="text" placeholder="I &#8249;3 Cotton Bud" name="texte" maxlength="15"><br><br>
+                
+                <label for="textcolor">Text Color</label>
+                <select name="text-color" id="textcolor">
+                    <option value="black">Black</option>
+                    <option value="white">White</option>
+                    <option value="blue">Blue</option>
+                    <option value="red">Red</option>
+                    <option value="yellow">Yellow</option>
+                    <option value="green">Green</option>
+                    <option value="orange">Orange</option>
+                    <option value="purple">Purple</option>
+                    <option value="pink">Pink</option>
+                    <option value="grey">Grey</option>
+                    <option value="brown">Brown</option>
+                </select>
+            </div>
+            <div>
+                <img src="image/test.svg" alt="logo cotton bud" width="250px" height="250px">
+                
+            </div>
+            </fieldset>
+        </form>
+    </section>
+    <footer class="flex-zone">
+		<div>headquarter : 240 rue des bullozers, Tourcoing(59200)</div>
+		<div>Contact us : contactus@we-have-no-mail.com</div>
+	</footer>
+</body>
+</html>
